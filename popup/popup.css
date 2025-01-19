@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.container {
+  width: 280px;
+  padding: 16px;
+  background: #f8f9fa;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #e9ecef;
+}
+
+h2 {
+  margin: 0;
+  font-size: 18px;
+  color: #2962FF;
+  font-weight: 600;
+}
+
+.version {
+  font-size: 12px;
+  color: #6c757d;
+  padding: 2px 6px;
+  background: #e9ecef;
+  border-radius: 4px;
+}
+
+.options-container {
+  background: white;
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.option {
+  margin: 12px 0;
+}
+
+.option:first-child {
+  margin-top: 0;
+}
+
+.option:last-child {
+  margin-bottom: 0;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 4px 0;
+}
+
+label:hover {
+  background: #f8f9fa;
+  border-radius: 4px;
+}
+
+input[type="checkbox"] {
+  margin: 0;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  accent-color: #2962FF;
+}
+
+.checkbox-label {
+  margin-left: 8px;
+  font-size: 14px;
+  color: #495057;
+}
+
+.beta-tag {
+  font-size: 11px;
+  color: #fff;
+  background: #fd7e14;
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-left: 8px;
+}
+
+.footer {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid #e9ecef;
+  text-align: center;
+  font-size: 12px;
+  color: #6c757d;
+}
+
+.author {
+  margin-bottom: 4px;
+}
+
+.website {
+  color: #2962FF;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.website:hover {
+  color: #1565c0;
+  text-decoration: underline;
+} 
