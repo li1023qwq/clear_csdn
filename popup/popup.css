@@ -42,6 +42,9 @@ h2 {
 
 .option {
   margin: 12px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .option:first-child {
@@ -109,4 +112,72 @@ input[type="checkbox"] {
 .website:hover {
   color: #1565c0;
   text-decoration: underline;
+}
+
+/* 屏蔽网站部分的样式 */
+.block-sites-section {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+}
+
+.section-title {
+  font-size: 14px;
+  color: #333;
+  margin: 0 0 10px 0;
+  font-weight: 500;
+}
+
+.block-sites-input {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.block-sites-input input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.btn {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: background-color 0.2s;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+}
+
+.btn-secondary {
+  background-color: #95a5a6;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.btn-secondary:hover {
+  background-color: #7f8c8d;
+}
+
+.manage-btn {
+  background-color: #2962FF;
+  color: white;
+  border: none;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.manage-btn:hover {
+  background-color: #1565c0;
 } 

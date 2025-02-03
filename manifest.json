@@ -5,11 +5,17 @@
   "description": "优化 CSDN 浏览体验，提供复制解锁、去广告等功能",
   "permissions": [
     "storage",
-    "tabs"
+    "tabs",
+    "declarativeNetRequest",
+    "declarativeNetRequestWithHostAccess"
   ],
   "host_permissions": [
-    "*://*.csdn.net/*"
+    "*://*.csdn.net/*",
+    "<all_urls>"
   ],
+  "background": {
+    "service_worker": "scripts/background.js"
+  },
   "action": {
     "default_popup": "popup/popup.html",
     "default_icon": {
@@ -31,5 +37,9 @@
     "32": "icons/icon.svg",
     "48": "icons/icon.svg",
     "128": "icons/icon.svg"
-  }
+  },
+  "web_accessible_resources": [{
+    "resources": ["pages/blocked.html", "pages/blocked.js"],
+    "matches": ["<all_urls>"]
+  }]
 } 
