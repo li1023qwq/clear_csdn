@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "CSDN 助手",
-  "version": "1.0",
+  "version": "1.1",
   "description": "优化 CSDN 浏览体验，提供复制解锁、去广告等功能",
   "permissions": [
     "storage",
